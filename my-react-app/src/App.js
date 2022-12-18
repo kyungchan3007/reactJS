@@ -9,8 +9,9 @@ export default function App() {
   return (
     <S.Warpper>
       <S.Box>
-        <span>😘</span>
+        <S.Emoji>😘</S.Emoji>
       </S.Box>
+      <S.Emoji>😘</S.Emoji>
     </S.Warpper>
   );
 }

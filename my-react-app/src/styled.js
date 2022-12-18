@@ -50,6 +50,10 @@ export const Inputs = styled.input.attrs({ required: true, minLength: 10 })`
   background-color: tomato;
 `;
 
+export const Emoji = styled.span`
+  font-size: 40px;
+`;
+
 export const Warpper = styled.div`
   display: flex;
   height: 100vh;
@@ -66,13 +70,9 @@ export const Box = styled.div`
   width: 100px;
   background-color: tomato;
   animation: ${BoxAnimation} 1s linear infinite;
-  span {
-    font-size: 40px;
+  ${Emoji} {
     &:hover {
-      font-size: 50px;
-    }
-    &:active {
-      opacity: 0;
+      font-size: 98px;
     }
   }
 `;
