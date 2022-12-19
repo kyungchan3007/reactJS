@@ -8,10 +8,14 @@ export default function App() {
   };
   return (
     <S.Warpper>
-      <S.Box>
-        <S.Emoji>😘</S.Emoji>
-      </S.Box>
-      <S.Emoji>😘</S.Emoji>
+      {/* <S.Box_1>
+        <S.Emoji_1>😘</S.Emoji_1>
+      </S.Box_1>
+
+      <S.Btn_1>go home</S.Btn_1> */}
+      <S.Text isTrue={isTrue} onClick={handleClick}>
+        Hello
+      </S.Text>
     </S.Warpper>
   );
 }
