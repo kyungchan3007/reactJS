@@ -6,16 +6,10 @@ export default function App() {
   const handleClick = () => {
     setIsTrue((prev) => !prev);
   };
+  console.log(isTrue);
   return (
     <S.Warpper>
-      {/* <S.Box_1>
-        <S.Emoji_1>😘</S.Emoji_1>
-      </S.Box_1>
-
-      <S.Btn_1>go home</S.Btn_1> */}
-      <S.Text isTrue={isTrue} onClick={handleClick}>
-        Hello
-      </S.Text>
+      <S.Title isTrue={isTrue}> HelloWorld </S.Title>
     </S.Warpper>
   );
 }
